@@ -10,6 +10,11 @@ Projects so far:
 
 ![image](https://user-images.githubusercontent.com/104909670/212535317-79d6d1b7-dbd0-4b71-8e98-4b056568aa7e.png)
 
+- Timestamping POST requests on the Flask server and importing an excel spreadsheet for weather data logging and ensuring the ESP32 is sending out messages every 5 seconds
+
+![image](https://user-images.githubusercontent.com/104909670/212550797-a411c40e-0c66-445c-84ab-99a4b07e8ccf.png)
+
+
 
 
 
