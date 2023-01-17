@@ -19,5 +19,8 @@ Projects so far:
 - Using Event Groups to synchronize the tasks such as the HTTP POST request only occurs after all the data fetching tasks have run
 - Using MQTT on subscribe data events to trigger ESP32 data transmission using task notifications and MQTT callback function
 
+![image](https://user-images.githubusercontent.com/104909670/212983604-fd1b6cb4-91aa-418e-b67b-9f76c9a682bb.png)
+
+
 
 
