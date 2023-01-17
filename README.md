@@ -14,7 +14,8 @@ Projects so far:
 
 ![image](https://user-images.githubusercontent.com/104909670/212550797-a411c40e-0c66-445c-84ab-99a4b07e8ccf.png)
 
-- Implementation of low power state in between data transmissions over HTTP using the real time clock
+- Implementation of deep sleep state in between data transmissions (every minute) over HTTP using the real time clock
+- Using RTC memory to store data in between deep sleep resets
 
 
 
