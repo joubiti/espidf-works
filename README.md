@@ -16,7 +16,7 @@ Projects so far:
 
 - Implementation of deep sleep state in between data transmissions (every minute) over HTTP using the real time clock
 - Using RTC memory to store data in between deep sleep resets
-
+- Using Event Groups to synchronize the tasks such as the HTTP POST request only occurs after all the data fetching tasks have run
 
 
 
