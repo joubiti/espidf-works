@@ -21,7 +21,10 @@ Projects so far:
 
 ![image](https://user-images.githubusercontent.com/104909670/212983604-fd1b6cb4-91aa-418e-b67b-9f76c9a682bb.png)
 
-- Implementation of OTA (Over-the-Air) updates on an ESP32 using HTTP to store the firmware
+- Using MQTT event to trigger OTA (Over-the-Air) ESP32 HTTP update instead of continuously polling
+
+![image](https://user-images.githubusercontent.com/104909670/213237513-f4c23499-9df9-4c39-b224-9d49bd45cdcf.png)
+
 
 
 
