@@ -47,8 +47,8 @@ typedef struct dht_data_t{
     uint8_t counter;
 }dht_data_t;
 
-#define ESP_WIFI_SSID      "CAFE AL JAZEERA"
-#define ESP_WIFI_PASS      "2022@2022#"
+#define ESP_WIFI_SSID      "testwifi"
+#define ESP_WIFI_PASS      "passtest"
 #define ESP_MAXIMUM_RETRY  10
 
 #define HASH_LEN 32
@@ -126,7 +126,7 @@ esp_err_t client_event_post_handler(esp_http_client_event_handle_t evt)
 }
 
 esp_http_client_config_t config_post = {
-        .url = "http://196.217.65.81:5000/weather",
+        .url = "http://192.168.0.10:5000/weather",
         .method = HTTP_METHOD_POST,
         .cert_pem = NULL,
         .event_handler = client_event_post_handler};
@@ -144,7 +144,7 @@ void simple_ota_example_task(void *pvParameters)
     ulTaskNotifyTake(pdTRUE, portMAX_DELAY);
     ESP_LOGI(TAG, "Starting OTA example task");
     esp_http_client_config_t config = {
-        .url = "http://196.217.65.81:5000/firmware/app.bin",
+        .url = "http://196.168.0.10:5000/firmware/app.bin",
         .keep_alive_enable= true,
         .cert_pem= NULL,
     };
