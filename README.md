@@ -26,6 +26,7 @@ Projects so far:
 ![image](https://user-images.githubusercontent.com/104909670/213237513-f4c23499-9df9-4c39-b224-9d49bd45cdcf.png)
 
 - Using NVS (Non Volatile Storage) to keep track of variables amidst the numerous deep sleep resets
+- OTA HTTP updates in chunks for low download speeds
 
 
 
